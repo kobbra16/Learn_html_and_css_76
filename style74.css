@@ -1,0 +1,60 @@
+#wrapper {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#header {
+    border: 1px solid black;
+    height: 200px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#menu {
+    position: absolute;
+    left: 150px;
+    top: 80px;
+    border: 1px solid black;
+    width: 500px;
+    height: 30px;
+}
+
+#left,
+#right {
+    width: 200px;
+    min-height: 700px;
+}
+
+#left {
+    float: left;
+    margin-left: 20px;
+}
+
+#right {
+    float: right;
+    margin-right: 20px;
+    outline: 1px solid black;
+}
+
+#content {
+    outline: 1px solid black;
+    height: 700px;
+    margin: 0px 240px;
+}
+
+#footer {
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.sidebar-div {
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
